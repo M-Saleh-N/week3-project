@@ -50,3 +50,6 @@ nav ul li a:hover{
     display: flex;
     gap : 2rem;
 }
+.foot-col ul{
+    list-style: none;
+}
