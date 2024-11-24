@@ -79,6 +79,17 @@ section{
     font-size: 1rem;
     font-weight: bold;
 }
+.foot-col button{
+    padding:1 20;
+    width: 100%;
+    background-color: rgb(235, 56, 71);
+    color: aliceblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
 .socials{
     display: flex;
     gap: 1rem;
