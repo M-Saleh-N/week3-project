@@ -40,3 +40,10 @@ nav ul li a{
 nav ul li a:hover{
     color: rgb(110, 110, 110);
 }
+ footer{
+    background-color: black;
+ }
+ section{
+    color: aliceblue;
+ }
+ 
