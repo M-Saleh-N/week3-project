@@ -186,4 +186,12 @@ nav ul li a:hover{
     font-weight: bold;      
     color: rgb(238, 43, 43);       
   }
+  .para2{
+    text-align: center;       /* Center the text */
+    font-size: 20px;       /* Set the font size */
+    font-weight: bold;      /* Set the font weight */
+    color: black;       /* Set the text color */
+    margin-bottom: 10rem;      /* space below the paragraph */
+    
+  }
 
