@@ -96,5 +96,8 @@ nav ul li a:hover{
     border-radius: 100%;
     cursor: pointer;
     transition: 0.3s;
-    
+
+}
+.socials span:hover{
+    background-color: #686161;
 }
