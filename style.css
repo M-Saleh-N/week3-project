@@ -53,3 +53,7 @@ nav ul li a:hover{
 .foot-col ul{
     list-style: none;
 }
+.foot-col li{
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+}
