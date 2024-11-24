@@ -16,8 +16,8 @@ The project consists of the following features:
 - *Content Sections*: Each section focuses on different aspects of the AMG GT 63 PRO, such as its story, performance, and design features.
 - *Grid Layout*: is employed to display images related to the car. allowing for a visually appealing arrangement of images.
 - *Image Elements*: display images, enhancing visual engagement and providing a better understanding of the car's features.
--*Form Elements*: A simple contact form in the footer with an input field for email and a submit button, allowing users to get in touch with the company.
--*External Stylesheets*: The project links to an external CSS file (style.css) for styling and uses an external font stylesheet for icons, enhancing the aesthetic quality of the webpage.
--*Icon Integration*: The project uses Remix Icon for social media icons, adding a modern and visually appealing touch to the interface.
--*Structured Content*: Clear headings and paragraphs are used to structure the content, making it easy to read and understand.
+- *Form Elements*: A simple contact form in the footer with an input field for email and a submit button, allowing users to get in touch with the company.
+- *External Stylesheets*: The project links to an external CSS file (style.css) for styling and uses an external font stylesheet for icons, enhancing the aesthetic quality of the webpage.
+- *Icon Integration*: The project uses Remix Icon for social media icons, adding a modern and visually appealing touch to the interface.
+- *Structured Content*: Clear headings and paragraphs are used to structure the content, making it easy to read and understand.
 - *CSS Grid Layout*: A CSS Grid container is showed which demonstrates item placement in a grid-box.
