@@ -45,6 +45,7 @@ nav ul li a:hover{
 }
  footer{
     background-color: black;
+    padding: 2rem;
  }
  section{
     color: aliceblue;
@@ -55,6 +56,7 @@ nav ul li a:hover{
 }
 .foot-col ul{
     list-style: none;
+    padding: 0%;
 }
 .foot-col li{
     margin-bottom: 2rem;
@@ -72,23 +74,23 @@ nav ul li a:hover{
     padding: 0.5rem 1rem;
     outline: none;
     border: none;
+    border-radius: 5px;
     font-size: 1rem;
     font-weight: bold;
 }
 .socials{
     display: flex;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 2rem;
-   max-width: fit-content;
-
+    
+    gap: 2rem;
 }
+
 .socials span{
     display: inline-block;
     height: 40px;
     width: 40px;
     text-align: center;
     line-height: 40px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: white;
     border-radius: 100%;
     cursor: pointer;
