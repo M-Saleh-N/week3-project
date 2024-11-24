@@ -146,3 +146,8 @@ nav ul li a:hover{
     object-fit: cover; /* make the image cover the entire grid item */
     border-radius: 10px; /* add a border radius to the image */
   }
+  .grid-container p{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
