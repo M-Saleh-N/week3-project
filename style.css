@@ -146,6 +146,12 @@ nav ul li a:hover{
     object-fit: cover; /* make the image cover the entire grid item */
     border-radius: 10px; /* add a border radius to the image */
   }
+  .grid h2{
+    text-align: center;       
+    font-size: 30px;      
+    font-weight: bold;      
+    color: rgb(238, 43, 43);      
+  }
  .para{
     text-align: center;       /* Center the text */
     font-size: 20px;       /* Set the font size */
@@ -175,9 +181,9 @@ nav ul li a:hover{
     border-radius: 10px; /* add a border radius to the image */
   }
   .main-tool h2{
-    text-align: center;       /* Center the text */
-    font-size: 30px;       /* Set the font size */
-    font-weight: bold;      /* Set the font weight */
-    color: rgb(238, 43, 43);       /* Set the text color */
+    text-align: center;      
+    font-size: 30px;       
+    font-weight: bold;      
+    color: rgb(238, 43, 43);       
   }
 
