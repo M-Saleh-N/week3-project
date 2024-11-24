@@ -32,3 +32,11 @@ nav ul li{
 span{
     color: rgb(138, 138, 138);
 }
+nav ul li a{
+    color: white;
+    text-decoration: none;  /*removes the lines*/
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(110, 110, 110);
+}
