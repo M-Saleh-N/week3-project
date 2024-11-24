@@ -146,8 +146,11 @@ nav ul li a:hover{
     object-fit: cover; /* make the image cover the entire grid item */
     border-radius: 10px; /* add a border radius to the image */
   }
-  .grid-container p{
-    font-size: 20px;
-    font-weight: bold;
-    color: black;
-  }
+ .para{
+    text-align: center;       /* Center the text */
+    font-size: 20px;       /* Set the font size */
+    font-weight: bold;      /* Set the font weight */
+    color: black;       /* Set the text color */
+    margin-bottom: 10rem;      /* space below the paragraph */
+    
+ }
