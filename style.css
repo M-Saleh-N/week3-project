@@ -13,3 +13,9 @@ nav{
     padding-left: 5%;       /*for the logo to move right*/
     padding-right: 30%;      /*for the list to move left*/
 }
+nav ul li{
+    list-style-type: none;
+    display: inline-block;  /*changed from block to horizontal line*/
+    padding: 20px;
+    margin: 0 20px; /* Add horizontal margin for spacing between items */
+}
