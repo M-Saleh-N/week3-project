@@ -46,4 +46,7 @@ nav ul li a:hover{
  section{
     color: aliceblue;
  }
- 
+.foot-container{
+    display: flex;
+    gap : 2rem;
+}
