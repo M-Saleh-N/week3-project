@@ -47,31 +47,32 @@ nav ul li a:hover{
     background-color: black;
     padding: 2rem;
  }
- section{
+section{
     color: aliceblue;
  }
 .foot-container{
     display: flex;
+    justify-content: space-between;
     gap : 2rem;
 }
+
 .foot-col ul{
     list-style: none;
     padding: 0%;
 }
 .foot-col li{
     margin-bottom: 2rem;
-    padding-left: 1rem;
     font-weight: bold;
 }
 .foot-col h4{
-    margin-bottom: 2rem;
-    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
     font-weight:bold;
 }
 .foot-col input{
     margin-bottom: 2rem;
     width: 100%;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -80,8 +81,7 @@ nav ul li a:hover{
 }
 .socials{
     display: flex;
-    
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .socials span{
