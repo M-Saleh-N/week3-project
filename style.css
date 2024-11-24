@@ -214,10 +214,19 @@ section{
       padding-left: 10%;
       padding-right: 10%;
     }
-  
-    .logo {
-      font-size: 18px;
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        right: 2%;
+        width: 270px;
+        height: 29vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
     }
+  
   
     nav ul {
       display: flex;
@@ -296,14 +305,33 @@ section{
       flex-direction: row;
       justify-content: space-between;
     }
+    .nav-links{
+        position: absolute;
+        top: 100%;
+        right: 2%;
+        width: 270px;
+        height: 29vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 10px;
+        transition: all .50s ease;
+    }
+    
   }
   
   /* Desktop Styles (for devices larger than 1024px) */
   @media (min-width: 1024px) {
     nav {
       flex-direction: row;
-      padding-left: 5%;
-      padding-right: 20%;
+     padding: 14px 2%;
+     transition: .2s;
+
+    }
+
+    .nav-links{
+        padding: 5px 0;
+        margin: 0px 20px;
     }
   
     .grid-container {
