@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: black;
+}
 nav{
     display: flex;
     align-items: center;
@@ -53,7 +56,32 @@ nav ul li a:hover{
 .foot-col ul{
     list-style: none;
 }
+.foot-col img:hover{
+    color: rgb(110, 110, 110);
+}
 .foot-col li{
     margin-bottom: 2rem;
     padding-left: 1rem;
+    font-weight: bold;
+}
+.foot-col h4{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight:bold;
+}
+.foot-col input{
+    margin-bottom: 2rem;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.socials{
+    display: flex;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 2rem;
+   max-width: fit-content;
+
 }
