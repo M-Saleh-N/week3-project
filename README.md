@@ -1,7 +1,7 @@
 #  Responsive Web Page
 
 ## Sneak peek
-[Uploading Screencast from 2024-11-24 22-33-26.webm…]()
+![Screenshot from 2024-11-24 22-36-38](https://github.com/user-attachments/assets/51c7a2d8-2937-47fe-96b8-1c3b1c19c9cf)
 
 ## Overview
 
