@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 246, 246);
 }
 nav{
     display: flex;
@@ -15,7 +15,7 @@ nav{
     padding-top: 30px;
     padding-left: 5%;       /*for the logo to move right*/
     padding-right: 20%;      /*for the list to move left*/
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 246, 246);
 }
 nav ul li{
     list-style-type: none;
@@ -25,15 +25,15 @@ nav ul li{
 }
 .container{
     height: 100vh; /*keeps the photo in the middle*/
-    background-image: url('images/bg.jpg');
+    background-image: url('images/fast.jpg');
     background-size: cover; /* This will make the background image cover the entire body */
 }
 .logo{
     color: rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 20px;
 }
 span{
-    color: rgb(27, 42, 243);
+    color: rgb(235, 56, 71);
 }
 nav ul li a{
     color: rgb(0, 0, 0);
@@ -41,7 +41,7 @@ nav ul li a{
     font-weight: bold;
 }
 nav ul li a:hover{
-    color: rgb(27, 42, 243);
+    color: rgb(235, 56, 71);
 }
  footer{
     background-color: black;
@@ -96,12 +96,12 @@ nav ul li a:hover{
 
 }
 .socials span:hover{
-    background-color: #1f6dff;
+    background-color: rgb(235, 56, 71);
 }
 
 .section__header{
     margin-bottom: 4rem; /*space between title and text*/
-    color: rgb(27, 42, 243) ;
+    color:rgb(235, 56, 71) ;
 }
 .story__container p{
     margin-bottom: 2rem;
@@ -122,5 +122,22 @@ nav ul li a:hover{
 
 .story__container p {
     font-size: 20px;
+    font-weight: bold;
+    
 
 }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns, each taking up 1 fractional unit */
+    grid-gap: 10px; /* gap between grid items */
+  }
+.grid-container {
+    max-width: 800px; /* adjust the max width to your liking */
+    margin: 40px auto; /* center the grid container */
+    padding: 20px; /* add some padding around the grid */
+  }
+  .grid-item {
+    display: flex;
+    justify-content: center; /* center the image horizontally */
+    align-items: center; /* center the image vertically */
+  }
