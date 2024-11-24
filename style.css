@@ -19,3 +19,8 @@ nav ul li{
     padding: 20px;
     margin: 0 20px; /* Add horizontal margin for spacing between items */
 }
+.container{
+    height: 100vh; /*keeps the photo in the middle*/
+    background-image: url('images/bg.jpg');
+    background-size: cover; /* This will make the background image cover the entire body */
+}
